@@ -1,0 +1,250 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #a8dbd9;
+    color: #333;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a, a:hover {
+     transition: all.2s ease;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background-color: #282A31;
+    border-bottom: 2px solid silver;
+    margin-bottom: 20px;
+}
+
+header #logo {
+    width: 30%;
+    float: left;
+}
+
+header #logo a {
+      color: #ebe0e0;
+    font-size: 2.5em;
+    font-family: IMPACT;
+}
+
+header #logo span {
+ color: #f47853;   
+}
+
+header #menuHead {
+    width: 34%; 
+    float: left;
+}
+
+header #menuHead div {
+    float: left;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fafafa;
+}
+
+header #menuHead div:hover {
+    background-color: #d96e20;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+
+#wrapper #leftCol {
+    width: 70%;
+    margin-right: 10%;
+    float: left;
+}
+
+#wrapper #leftCol #bigArticle {
+   width: 78%;
+    margin-left: 10%;
+    background-color:#EDAC30;
+    padding: 1%;
+    float: left;
+}
+
+#wrapper #leftCol #bigArticle img, #wrapper #leftCol .article img {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#wrapper #leftCol #bigArticle h2, #wrapper #leftCol .article h2 {
+    font-weight: normal;
+    font-size: 1.4em;
+    color: #fff;
+    font-family: Comic Sans MS, sans-serif;
+}
+
+#wrapper #leftCol #bigArticle p, #wrapper #leftCol .article p {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#wrapper #leftCol #bigArticle div.more, #wrapper #leftCol .article div.more {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #b18737;
+    color: #fff;
+    width: 10%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#wrapper #leftCol #bigArticle div.more:hover, #wrapper #leftCol .article div.more:hover {
+    background-color: #d96e20;
+}
+
+#wrapper #leftCol .article {
+    width: 40%;
+    margin-left: 5%;
+    background-color: #d1a100;
+    padding: 1%;
+    float: left;
+}
+
+#wrapper #leftCol .article div.more {
+ width: 20%;  
+}
+
+#wrapper #rightCol {
+    width: 20%;
+    float: left;
+}
+
+#wrapper #rightCol .banner {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    border: 2px solid silver;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 98%;
+    float: left;
+    margin-top: 10px;
+    padding: 1%;
+    background-color:  #282A31;
+    border-top: 2px solid silver; 
+}
+
+footer #social {
+    float: left;
+    width: 50%;
+    color:aliceblue;
+}
+
+footer #social img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    float: left;
+}
+
+footer #rights {
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 1em;
+    color: aliceblue;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+.merez_item img {
+    width: 50px;
+}
+.merez_item {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 150px;
+    margin: 10px 0;
+    padding: 5px;
+    justify-content: space-between;
+    margin-left: -100px;
+    transition: 0.5s ease;
+}
+
+.merez_item:hover {
+    margin-left: 0;
+}
+
+.product-item {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #F5F5F5;
+  background: white;
+  font-family: "Open Sans";
+  transition: .2s ease;
+}
+
+.product-item img {
+  display: block;
+  width: 100%;
+}
+
+.button {
+    margin-bottom: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 12px;
+  border-radius: 5px;
+  background: #7c7575;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 28px;
+  transition: .2s ease;
+}
+
+.product-item:hover .button {
+    background: #d96e20;
+}
